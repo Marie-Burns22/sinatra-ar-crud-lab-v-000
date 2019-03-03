@@ -6,4 +6,5 @@ class Article < ActiveRecord::Base
   def initialize(params)
     @title = params[:title]
     @content = params[:content]
+  end
 end
